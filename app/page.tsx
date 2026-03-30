@@ -89,7 +89,7 @@ export default function Home() {
             onChange={(e) => setUnit(e.target.value)}
             style={styles.input}
           >
-            <option value="mm">mm</option>
+            <option value="mm">mm (기본)</option>
             <option value="cm">cm</option>
             <option value="m">m</option>
           </select>
